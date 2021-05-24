@@ -64,6 +64,6 @@
         </style>
     </head>
     <body>
-      {{var_dump($comics)}}
+      @yield('main')
     </body>
 </html>
