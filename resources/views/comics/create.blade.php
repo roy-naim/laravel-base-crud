@@ -9,11 +9,8 @@
     <input type="text" name="thumb" value="" placeholder="URL Image">
     <input type="number" name="price" value="" placeholder="Price">
     <input type="text" name="series" value="" placeholder="Series">
-    <input type="text" name="series" value="" placeholder="Series">
     <input type="text" name="sale_date" value="" placeholder="Sale Date">
     <input type="text" name="type" value="" placeholder="Type">
-
-
 
     <input type="submit" name="" value="Send">
   </form>

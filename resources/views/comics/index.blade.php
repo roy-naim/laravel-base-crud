@@ -11,6 +11,7 @@
           <h4>{{$comic['series']}}</h4>
         </div>
       </a>
+      <a href="{{route('comics.edit', ['comic' => $comic->id])}}">Edit</a>
       @endforeach
       <a href="{{route('comics.create')}}">Insert Your Comic</a>
     </div>
