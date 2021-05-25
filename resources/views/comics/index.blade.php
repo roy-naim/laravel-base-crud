@@ -12,6 +12,11 @@
         </div>
       </a>
       <a href="{{route('comics.edit', ['comic' => $comic->id])}}">Edit</a>
+      <form class="delete-form" action="{{route('comics.destroy', ['comic' => $comic->id])}}" method="post">
+        @csrf
+        @method('DELETE')
+        <input class="delete" type="submit" name="" value="Delete">
+      </form>
       @endforeach
       <a href="{{route('comics.create')}}">Insert Your Comic</a>
     </div>

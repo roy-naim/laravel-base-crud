@@ -9,5 +9,7 @@
   <p class="container-flex">{{$comic['description']}}</p>
 
   <a href="{{route('comics.edit', ['comic' => $comic->id])}}">Edit</a>
+  <a href="{{route('comics.destroy', ['comic' => $comic->id])}}">Delete</a>
+
   <a class="container-flex back-button" href="{{route('comics.index')}}">Back</a>
 @endsection
