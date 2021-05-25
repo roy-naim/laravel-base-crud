@@ -1,0 +1,30 @@
+.nav-top {
+  background-color: #0282f9;
+  color: #fff;
+  .container-flex {
+    justify-content: flex-end;
+  }
+}
+
+nav {
+
+  .dc-logo {
+    width: 50px;
+    img {
+      width: 100%;
+    }
+  }
+  ul {
+    display: flex;
+
+    li a {
+      padding: 0 20px;
+    }
+  }
+}
+.jumbotron {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
