@@ -13,5 +13,6 @@
     <input type="text" name="type" value="{{$comic->type}}" placeholder="Type">
 
     <input type="submit" name="" value="Send">
+
   </form>
 @endsection
